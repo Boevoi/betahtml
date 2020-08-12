@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-RU">
 	<head>
-		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html"charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<title>beta</title>
 		<meta name="keywords" content="html, первый, top">
 		<meta name="description" content="Это наш первый html сайт,создавали его Саня и Ираклий.">
 		<link rel="shortcut icon" href="https://www.film.ru/sites/default/files/images/10(186).jpg">
 	</head>
 	<body>
-		Привет,<a href="https://www.youtube.com/watch?v=mx3LG_ZKK8I"target="_blank"> всем! </a> <br>
-
-	<input placeholder="Поиск">
-
-<h1>Nika Pidoras</h1>
-1<br>
-2<br>
-3<br>
-4<br>
-5<br>
-Вышел Ника пососать
-<hr>
+			<header>
+		Привет,<a href="https://www.youtube.com/watch?v=mx3LG_ZKK8I"target="_blank" class="href"> всем! </a> <br>
+				<form autocomplete="off"action="pech.html" method="post">
+					<input type="email" name="name1" id="name1" placeholder="Введите имя" required>
+					<input type="password" name="pswrd1" id="pswrd1" placeholder="Введите пароль" required>
+					<input type="submit" name="btn1" id="btn1" value="Войти">
+				</form>
+<h1 class="h-1" align="center">!!!Html сайт!!!</h1> <!--изменить потом цвет первых слов-->
+</header>
+<article>
+<div class="tab">
 	<h2>Наш первый html</h2>
-<ul>
-		<li><a href="#Dog">Собачки:3</a></li>
-    <li><a href="#Cat">Котики:3</a></li>
-</ul>
-
-<ol>
-	<li>Saniatop1gg</li>
-	<li>Ikatop1gg</li>
-	<li>Nikatop1gg</li>
-</ol>
+		<span class="hrefc"><a href="#Cat" class="href">Котики:3</a></span>
+		<span class="hrefd"><a href="#Dog" class="href">Собачки:3</a></span>
 <ul>
 	<li>Saniatop1gg</li>
+</ul>
+<ul type="circle">
 	<li>Ikatop1gg</li>
+</ul>
+<ul type="square">
 	<li>Nikatop1gg</li>
 </ul>
-
+<hr align="center" color="#000" size="1" width="480px">
 </div>
-		<table  border="2">
-			<tr>
+		<table  border="2" align="center">
+			<tr bgcolor="#cacaca">
 				<th>Имя</th>
 				<th>Фамилия</th>
 				<th>Отчество</th>
@@ -54,21 +50,70 @@
 			<tr>
 					<td>Билли</td>
 					<td>Джин</td>
-					<td>Насрал</td>
-					<td>В кувшин</td>
+					<td align="center" colspan="2">Насрал в кувшин</td>
 			</tr>
 		</table>
-<hr>
-	<div>
+</div>
+<hr color="#000" size="1">
 <h2>Котейки</h2>
-		<img src=https://news.cgtn.com/news/77416a4e3145544d326b544d354d444d3355444f31457a6333566d54/img/37d598e5a04344da81c76621ba273915/37d598e5a04344da81c76621ba273915.jpg width="512px" height="288" id=Cat>
-		<img src=https://images.indianexpress.com/2019/04/cat_1200getty.jpg width="512px" height="288">
-	</div>
+		<img src=https://news.cgtn.com/news/77416a4e3145544d326b544d354d444d3355444f31457a6333566d54/img/37d598e5a04344da81c76621ba273915/37d598e5a04344da81c76621ba273915.jpg alt="Шотландский котёнок" title="Шотландский котёнок" width="512px" height="288" id=Cat>
+		<img src=https://images.indianexpress.com/2019/04/cat_1200getty.jpg width="512px" height="288" id=Cat1>
 
-	<div>
+
 <h2>Собачки</h2>
-		<img src=https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg width="512px" height="288" id=Dog>
-		<img src=https://i.insider.com/5484d9d1eab8ea3017b17e29?width=1100&format=jpeg&auto=webp width="450px" height="288">
-	</div>
+		<img src=https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg border="1px" width="512px" height="288" alt="Щенок лабрадора" title="Щенок лабрадора" id=Dog>
+		<img src=https://i.insider.com/5484d9d1eab8ea3017b17e29?width=1100&format=jpeg&auto=webp border="1px" alt="Щенок" title="Щенок" width="450px" height="288" id="Dog1">
+	<section>
+<dl>
+		<dt>Тег <big>"sup"</big></dt>
+			<dd>(21<sup>2</sup>=441)"2" прописана парным тегом <big>sup</big>!!!</dd><br>
+
+		<dt>Элемент <big>article</big></dt>
+			<dd><p class="st">Элемент <b><strong>article</strong></b> представляет автономный, независимый контент, который может использоваться и распространяться отдельно от своей страницы или сайта.<br>
+				 Это может быть сообщение на форуме, журнал или статья из газеты или блога, комментарий, интерактивный виджет или гаджет или любой другой независимый элемент контента.</p>
+		    <p>Элемент <b>article</b> заменил элемент <b>div</b>, широко использовавшийся в <em>HTML4</em> вместе с атрибутами <b>id</b> или <b>class</b>.</p>
+			</dd>
+			<dt>Элемент <big>section</big></dt>
+					<dd><p class="st">Элемент <b>section</b> - это логический контейнер страницы или статьи.<br>
+С его помощью содержимое элемента <b>article</b> разбивается на блоки, или разделы.<br>
+Домашняя страница, к примеру, может содержать: раздел с представлением компании, раздел с новостями и ещё один раздел с контактами.</p>
+<p>Каждый блок <b>section</b> должен быть правильно указан: обычно проставляются теги заголовка <em>(h1-h6)</em>, которые оформляются как его дочерние элементы.</p>
+</dd>
+			<dt>Элемент <big>aside</big></dt>
+					<dd><p class="st">Элемент <b>aside</b> служит для представления второстепенного или сопутствующего контента. Это контент, независимый от основного контента, но напрямую с ним связанный<br>
+Он обычно располагается в боковых панелях страницы.</p>
+<p>Когда тег <b>aside</b> используется внутри тега <b>article</b>, контент <b>aside</b> должен иметь непосредственное отношение к контенту <b>article</b>.</p>
+</dd>
+</dl>
+</section>
+<div class="guc">
+	<h3>Песня-Gucci Flip Flops<br></h3>
+		<ul>
+<li>Формат:mp3</li>
+<li>Качество:22 kbps, Stereo</li>
+		</ul>
+			<audio controls>
+					<source src="https://muztrack.net/uploads/music/2020/06/Tik_Tok_-_Guchi_Flip_Flap.mp3"type="audio/mpeg">
+Аудио не поддерживается вашим браузером:(
+			</audio>
+</div>
+		<hr color="#000" size="1">
+			<big><a href="pech.html" class="href" title="Перейти на рецепт печенья">Простой рецепт домашнего печенья</a>:)</big><br>
+				<strong>Статус:</strong><progress value="20" max="100">20%</progress><br>
+				<strike><q>Не ищи смысл, где нет смысла</q></strike>
+				<p class="scrollex">кто прочитал тот крос</p>
+	</article>
+	<aside>
+<ul>
+	<li>Элемент 1</li>
+	<li>Элемент 2</li>
+	<li>Элемент 3</li>
+	<li>Элемент 4</li>
+	<li>Элемент 5</li>
+</ul>
+
+	</aside>
+
+		<footer>sdffc</footer>
 	</body>
 </html>

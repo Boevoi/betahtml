@@ -1,0 +1,100 @@
+* {
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      outline: none;
+}
+
+html {
+    background: url('https://habrastorage.org/files/42e/d6b/a3b/42ed6ba3b1c34698880272577a2a06dc.jpg')
+    repeat-x #ffffff center center fixed;
+    background: size: cover;
+}
+
+body {
+    font-family: Comic Sans MS, sans-serif;
+}
+
+header {
+    border: 4px inset #dbdad6;
+    width: 1320px;
+    height: 400px;
+    background-image: url('https://ru.inettools.net/upload/JQLQi5vncopNGFEkaC0LsOCsSo0uE70TommO5Z4x/html5-and-css3-code-generator_785.9mSxM.png');
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+#section {
+  border: 2px dashed silver;
+  border-radius: 5px
+}
+
+article, aside {
+  border: 2px solid #dbdad6;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+article {
+width: 60%;
+margin-left: 1%;
+margin-right: 5%;
+}
+
+aside {
+width: 30%;
+}
+
+aside ul {
+list-style-position: inside;
+list-style-type: upper-roman;
+}
+
+footer {
+  border: 4px solid #dbdad6;
+  width: calc(100% - 30px);
+  float: left;
+  height: 200px;
+  background-color: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.hrefd {
+  display: list-item;
+}
+
+.hrefc {
+  display: list-item;
+}
+
+p.st:first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+.href {
+      color: #3C59DC;
+      line-height: 50px;
+}
+
+.href:hover {
+      color: #02187A;
+}
+
+}
+.guc {
+      text-indent: 50px;
+}
+
+.scrollex {
+      display: block;
+      width: 100px;
+      height: 60px;
+      overflow: scroll;
+}
